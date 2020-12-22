@@ -43,7 +43,7 @@ class View
      */
     public function render(string $templateName, array $data): string
     {
-        return $this->engine->render($templateNme, $data);
+        return $this->engine->render($templateName, $data);
     }
 
     /**

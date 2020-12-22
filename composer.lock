@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb7ba9d4103390dda67ae21f0fbcadd0",
+    "content-hash": "4d514b2fb401354cd73d7a28b631bda2",
     "packages": [
         {
             "name": "coffeecode/optimizer",
@@ -194,7 +194,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4"
+        "php": "^7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"

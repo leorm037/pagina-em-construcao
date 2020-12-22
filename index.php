@@ -34,7 +34,6 @@ $route->get("/{errcode}", "Web:error");
  */
 $route->dispatch();
 
-
 /**
  * ##########################
  * ###   ERROR REDIRECT   ###
@@ -43,6 +42,5 @@ $route->dispatch();
 if ($route->error()) {
     $route->redirect("/ops/{$route->error()}");
 }
-
 
 ob_end_flush();

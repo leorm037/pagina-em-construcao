@@ -17,7 +17,10 @@ class Web extends Controller
 
     public function home(): void
     {
-        echo "Home";
+        $test = "<p>Teste</p>";
+        
+        echo $this->view->render("home",["teste" => $test]);
+        
 //        $head = $this->seo->render(
 //            CONF_SITE_NAME . " - " . CONF_SITE_TITLE,
 //            CONF_SITE_DESC,
@@ -33,7 +36,14 @@ class Web extends Controller
 
     public function error(array $data): void
     {
-        var_dump($data);
+        $error = new \stdClass();
+        
+        $error->code = $data['errcode'];
+        $error->title = "titulo do erro";
+        $error->message = "mensagem do error";
+        $error->data = $data;
+        
+        echo $this->view->render("error", ["error" => $error]);
     }
 
 }
