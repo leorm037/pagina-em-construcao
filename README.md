@@ -19,7 +19,7 @@ mklink /d \xampp\htdocs\pg \git\pagina-em-construcao
 #### Linux
 
 ```bash
-ln -s \home\user\git\pagina-em-construcao \var\wwww\pg
+ln -s /home/user/git/pagina-em-construcao /var/wwww/html/pg
 ```
 
 ## Versioning
