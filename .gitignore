@@ -63,3 +63,5 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,netbeans,composer
 
 /scr/boot/config.php
+
+/themes/pagina_em_construcao/assets/app.*
