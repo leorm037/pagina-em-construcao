@@ -20,7 +20,8 @@
         },
         "files": [
             "src/boot/config.php",
-            "src/boot/helpers.php"
+            "src/boot/helpers.php",
+            "src/boot/minify.php"
         ]
     },
     "minimum-stability": "stable",
@@ -28,6 +29,7 @@
         "php": "^7.3",
         "coffeecode/router": "^1.0",
         "league/plates": "v4.0.0-alpha",
-        "coffeecode/optimizer": "^2.0"
+        "coffeecode/optimizer": "^2.0",
+        "matthiasmullie/minify": "^1.3"
     }
 }

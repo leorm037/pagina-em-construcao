@@ -6,7 +6,7 @@
  * #######################
  */
 
-define("CONF_URL_BASE_DEV", "http://localhost/pg/");
+define("CONF_URL_BASE_DEV", "http://localhost/pg");
 define("CONF_URL_BASE", "https://www.paginaemconstrucao.com.br");
 
 

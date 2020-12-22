@@ -1,6 +1,6 @@
 <?php
 
-namespace PaginaEmConstrucao\App;
+namespace PaginaEmConstrucao\Controller;
 
 use PaginaEmConstrucao\Core\Controller;
 
