@@ -14,7 +14,7 @@
 function url(string $path = null): string {
     if (strpos($_SERVER['HTTP_HOST'], "localhost") !== false) {
         if ($path) {
-            return CONF_URL_BASE_DEV . "/" . ($path[0] == "/" ? mb_subst($path, 1) : $path);
+            return CONF_URL_BASE_DEV . "/" . ($path[0] == "/" ? mb_substr($path, 1) : $path);
         }
         return CONF_URL_BASE_DEV;
     }

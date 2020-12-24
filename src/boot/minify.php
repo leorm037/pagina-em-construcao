@@ -20,6 +20,7 @@ if(strpos(url(), "localhost") !== false) {
     }
     
     $minCss->minify(__DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/app.css");
+//    file_put_contents($cssDir . "/../app.css", $minCss->minify());
     
     
     /**
@@ -44,4 +45,5 @@ if(strpos(url(), "localhost") !== false) {
     }
     
     $minJs->minify(__DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/app.js");
+//    file_put_contents($jsDir . "/../app.js", $minJs->minify());
 }
